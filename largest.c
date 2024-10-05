@@ -5,6 +5,10 @@ int main()
     scanf("%d %d",&a,&b);
     if(a>b)
     {
-        printf("the number %d is largest among %d",a,b);
+        printf("the number %d is largest ",a);
     }
+    else 
+    {
+        printf("the number %d is largest ",b);
+}
 }
